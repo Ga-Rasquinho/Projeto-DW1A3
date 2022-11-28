@@ -1,0 +1,29 @@
+.itens-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.itens {
+  display: flex;
+  grid-column: 1/-1;
+}
+
+.itens-conteudo ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 10px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itens-conteudo li {
+  display: block;
+  flex: 1;
+  width: 370px;
+  height: 400px;
+  justify-self: center;
+}
