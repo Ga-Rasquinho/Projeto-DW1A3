@@ -1,0 +1,50 @@
+.sobre p {
+  display: flex;
+  grid-column: 1;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.sobre img {
+  margin-top: 50px;
+  width: 70%;
+  height: 95%;
+  object-fit: cover;
+  box-shadow: inset 0 -120px white;
+
+  border-radius: 10px;
+}
+.sobre-bg {
+  margin-top: 25px;
+  background-color: white;
+  box-shadow: inset 0 -120px white;
+  color: black;
+}
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+}
+.sobre-conteudo {
+  align-self: end;
+  padding-bottom: 10px;
+}
+.sobre-tx {
+  padding-top: 40px;
+  display: flex;
+  grid-column: 1/-1;
+  text-align: left;
+}
+.footer-bg::before{
+  content: "";
+  display: block;
+  max-width: 100vw;
+  height: 2px;
+  background: black;
+  margin-top: 16px;
+}
