@@ -1,7 +1,7 @@
 @import "./Geral/geral.css";
 /*======================================================================*/
 @import "./Geral/header.css";
-@import "./index/main.css";
+@import "main.css";
 @import "./index/carrossel.css";
 /*======================================================================*/
 @import "./index/sectionLivro.css";

@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   padding-top: 80px;
   text-align: center;
-  background-image: url("/img/imagemFundo.jpg");
+  background-image: url("../img/imagemFundo.jpg");
   background-size: cover;
   height: 750px; /* You must set a specified height */
   background-position: left; /* Center the image */
