@@ -38,9 +38,18 @@
   top: 15px;
 }
 .growDiv {
-  position: relative;
-  height: 200px;
-  width: 300px;
+  margin-left: 70px;
+  height: 350px;
+  width: 350px;
   left: 100px;
   top: 100px;
+}
+
+.growImgMeio{
+  height: 400px;
+  width: 400px;
+}
+
+.positionGrowImg{
+  padding-top: 70px;
 }
