@@ -4,6 +4,11 @@
   flex-wrap: wrap;
   padding-top: 80px;
   text-align: center;
+  background-image: url("/img/imagemFundo.jpg");
+  background-size: cover;
+  height: 750px; /* You must set a specified height */
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat;
 }
 .main {
   background: linear-gradient(#ff1a1a, #a80000);
@@ -26,4 +31,22 @@
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
+}
+.h1-Div {
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h1-Div {
+  position: relative;
+}
+.h1-Div:before {
+  content: "";
+  display: inline;
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  bottom: 0;
+  left: 25%;
+  background-color: #000;
 }

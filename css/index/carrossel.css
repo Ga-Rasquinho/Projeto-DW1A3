@@ -1,7 +1,7 @@
 .itens-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 70px;
+  padding-top: 20px;
   padding-bottom: 60px;
 }
 
@@ -9,7 +9,11 @@
   display: flex;
   grid-column: 1/-1;
 }
-
+.itens-conteudo h1 {
+  display: flex;
+  grid-column: 2/3;
+  text-align: center;
+}
 .itens-conteudo ul {
   display: flex;
   flex-wrap: wrap;
