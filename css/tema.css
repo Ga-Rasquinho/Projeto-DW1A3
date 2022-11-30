@@ -1,7 +1,7 @@
 @import "./Geral/geral.css";
 /*======================================================================*/
 @import "./Geral/header.css";
-@import "./index/main.css";
+@import "./main-tema.css";
 @import "./Tema/main-tema.css";
 /*===================================================================*/
 @import "./Geral/footer.css";

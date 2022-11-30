@@ -24,7 +24,11 @@
   box-shadow: inset 0 -120px white;
   color: black;
 }
-
+.sobre-bg h1 {
+  padding: 40px 50px;
+  font-size: 50px;
+  text-align: center;
+}
 .sobre {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -40,7 +44,7 @@
   grid-column: 1/-1;
   text-align: left;
 }
-.footer-bg::before{
+.footer-bg::before {
   content: "";
   display: block;
   max-width: 100vw;

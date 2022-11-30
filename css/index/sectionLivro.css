@@ -51,17 +51,12 @@
   display: grid;
   grid-template-columns: 2fr 3fr;
 }
-.escolha-ed h1 {
+.escolha-ed img {
   background-color: black;
   border-radius: 0px 5px 0px 0px;
-  color: white;
-  font-size: 70px;
-  text-align: center;
   padding: 20px 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  height: 310px;
+  width: 550px;
 }
 
 .escolha-ed p {
