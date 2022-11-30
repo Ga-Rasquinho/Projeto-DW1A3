@@ -55,8 +55,8 @@
   background-color: black;
   border-radius: 0px 5px 0px 0px;
   padding: 20px 20px;
-  height: 310px;
-  width: 550px;
+  height: 468px;
+  width: 526px;
 }
 
 .escolha-ed p {
@@ -111,5 +111,5 @@
 
 .sobre-conteudo {
   align-self: end;
-  padding-bottom: 200px;
+  padding-bottom: 280px;
 }
