@@ -56,3 +56,16 @@ header img {
   display: flex;
   max-width: 200px;
 }
+
+.conhecerONU{
+  text-align: right;
+  padding: 2px;
+  margin-right: 10px;
+  background: linear-gradient(#ffffff, #e2e2e2);
+}
+
+.conhecerONU a{
+  color: black;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
