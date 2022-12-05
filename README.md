@@ -7,5 +7,5 @@
 ***Projeto de cunho acadêmico realizado para a disciplina de Desenvolvimento Web I***
 
 ```
-Algumas imagens utilizadas nesse projeto podem conter direito autoral.
+Algumas imagens utilizadas nesse projeto podem conter direitos autorais.
 ```
